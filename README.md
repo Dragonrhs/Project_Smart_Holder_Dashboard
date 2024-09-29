@@ -33,7 +33,7 @@ O projeto deve apartir do peso da garrafa colocada saber se ela esta vazia ou ch
 | UR-05 | Tem que ter uma fonte de energia para alimentação   |Obrigatório     |
 | UR-06 | Deve apresentar os dados medidos em um dashboard    |Obrigatório     |
 | UR-07 | Uso de bateria para alimentação                     |**Desejável**   |
-| :-----|-----------------------------------------------------|:-------------- |
+
 
 # Materiais utilizados
 

@@ -24,16 +24,16 @@ O projeto consiste em aprimorar o smart holder, fazendo com que os dados medidos
 O projeto deve apartir do peso da garrafa colocada saber se ela esta vazia ou cheia indicando atraves de leds essa informaçao, deve apresentar no display a temperatura que a bebida está, deve ter uma fonte de alimentação seja por meio da fonte ou opcionalmente por meio da bateria e todos esses dados devem ser enviados para o dashboard para uma visualizaçao melhorada.
 
 
-| ID    |                        Requisito                    |    Tipo       |
-| :-----|-----------------------------------------------------|--------------:|
-| UR-01 | Medir a temperatura interna da garrafa              |Obrigatório    |
-| UR-02 | Medir o peso da garrafa                             |Obrigatório    |
-| UR-03 | Mostrar a temperatura no display                    |Obrigatório    |
-| UR-04 | Leds devem ascender de acordo com o peso da garrafa |Obrigatório    |
-| UR-05 | Tem que ter uma fonte de energia para alimentação   |Obrigatório    |
-| UR-06 | Deve apresentar os dados medidos em um dashboard    |Obrigatório    |
-| UR-07 | Uso de bateria para alimentação                     |**Desejável**  |
-
+| ID    |                        Requisito                    |    Tipo        |
+| :-----|-----------------------------------------------------|:--------------:|
+| UR-01 | Medir a temperatura interna da garrafa              |Obrigatório     |
+| UR-02 | Medir o peso da garrafa                             |Obrigatório     |
+| UR-03 | Mostrar a temperatura no display                    |Obrigatório     |
+| UR-04 | Leds devem ascender de acordo com o peso da garrafa |Obrigatório     |
+| UR-05 | Tem que ter uma fonte de energia para alimentação   |Obrigatório     |
+| UR-06 | Deve apresentar os dados medidos em um dashboard    |Obrigatório     |
+| UR-07 | Uso de bateria para alimentação                     |**Desejável**   |
+| :-----|-----------------------------------------------------|:-------------- |
 
 # Materiais utilizados
 
@@ -61,7 +61,7 @@ O projeto deve apartir do peso da garrafa colocada saber se ela esta vazia ou ch
 | Porta garrafa             | R$18,49    |
 | 1 Raspberry Pi 3 model b+ | R$385,60   |
 | resistor 220 Ω x3         | R$0,30     |
-| **Total**                 |**R$472,38**|
+| **Total**                 |**R$472,68**|
 
 # Funcionamento
 

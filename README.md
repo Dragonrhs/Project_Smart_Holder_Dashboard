@@ -1,6 +1,6 @@
 # Project_Smart_Holder_Dashboard
 
-Repositório para continuação do projeto Project_Smart_Holder(https://github.com/Dragonrhs/Project_Smart_Holder) referente ao Trabalho T2 e T3 da materia de Microcontroladores e Sistemas Embarcados EEN251, sobre supervisão dos professores Sergio Ribeiro Augusto e Rodrigo França.
+Repositório para continuação do projeto [Project_Smart_Holder](https://github.com/Dragonrhs/Project_Smart_Holder) referente ao Trabalho T2 e T3 da materia de Microcontroladores e Sistemas Embarcados EEN251, sobre supervisão dos professores Sergio Ribeiro Augusto e Rodrigo França.
 
 # Sumário
 

@@ -70,19 +70,19 @@ O projeto deve apartir do peso da garrafa colocada saber se ela esta vazia ou ch
 
 ## Diagrama de blocos do sistema
 
-![screenshot](imagens/diagrama)
+![screenshot](imagens/diagrama.jpeg)
 
 ## Esquema Elétrico
 
-![screenshot](imagens/Esquema_Eletrico.png)
+![screenshot](imagens/Esquema_Eletrico.jpeg)
 
 ## Red Nodes
 
-![screenshot](imagens/Red.png)
+![screenshot](imagens/Red.jpeg)
 
 ## Dashboard
 
-![screenshot](Dashboard/Red.png)
+![screenshot](Dashboard/Red.jpeg)
 
 # Autores
 - [Ryuske Hideaki Sato 21.00745-4](https://github.com/Dragonrhs)
@@ -91,4 +91,4 @@ O projeto deve apartir do peso da garrafa colocada saber se ela esta vazia ou ch
 - [Erick Eiji Nagao 21.00690-3](https://github.com/ErickNagao)
 
 
-![screenshot](imagens/equipe.png)
+![screenshot](imagens/equipe.jpeg)

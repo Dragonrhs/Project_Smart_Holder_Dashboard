@@ -70,7 +70,7 @@ O projeto deve apartir do peso da garrafa colocada saber se ela esta vazia ou ch
 
 ## Diagrama de blocos do sistema
 
-![screenshot](imagens/diagrama.jpeg)
+![screenshot](imagens/diagrama.png)
 
 ## Esquema Elétrico
 
@@ -82,7 +82,7 @@ O projeto deve apartir do peso da garrafa colocada saber se ela esta vazia ou ch
 
 ## Dashboard
 
-![screenshot](Dashboard/Red.jpeg)
+![screenshot](Dashboard/Red.png)
 
 # Autores
 - [Ryuske Hideaki Sato 21.00745-4](https://github.com/Dragonrhs)

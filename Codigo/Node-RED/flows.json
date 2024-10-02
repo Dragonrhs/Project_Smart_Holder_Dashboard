@@ -1,0 +1,151 @@
+[
+    {
+        "id": "ca473cb7b58427db",
+        "type": "tab",
+        "label": "Fluxo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2daac9818d090f61",
+        "type": "serial in",
+        "z": "ca473cb7b58427db",
+        "name": "",
+        "serial": "2fc4833de8926fe5",
+        "x": 230,
+        "y": 260,
+        "wires": [
+            [
+                "11cd6a326ff99fbf"
+            ]
+        ]
+    },
+    {
+        "id": "11cd6a326ff99fbf",
+        "type": "json",
+        "z": "ca473cb7b58427db",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 430,
+        "y": 340,
+        "wires": [
+            [
+                "9bf64bcb2da2fa75",
+                "6465c13a738ee3f6",
+                "c357db159e74f93d"
+            ]
+        ]
+    },
+    {
+        "id": "9bf64bcb2da2fa75",
+        "type": "ui_gauge",
+        "z": "ca473cb7b58427db",
+        "name": "donut_temperatura",
+        "group": "d579130252e051d8",
+        "order": 2,
+        "width": "4",
+        "height": "4",
+        "gtype": "donut",
+        "title": "Temperatura",
+        "label": "°C",
+        "format": "{{msg.payload.temp}}",
+        "min": 0,
+        "max": "35",
+        "colors": [
+            "#90e2fe",
+            "#c7ffd8",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 650,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "6465c13a738ee3f6",
+        "type": "ui_gauge",
+        "z": "ca473cb7b58427db",
+        "name": "gauge_peso",
+        "group": "d579130252e051d8",
+        "order": 3,
+        "width": "4",
+        "height": "3",
+        "gtype": "gage",
+        "title": "Peso",
+        "label": "g",
+        "format": "{{msg.payload.peso}}",
+        "min": 0,
+        "max": "500",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 690,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "c357db159e74f93d",
+        "type": "ubidots_out",
+        "z": "ca473cb7b58427db",
+        "name": "Cup Holder",
+        "token": "",
+        "label_device": "",
+        "device_label": "Rasp",
+        "tier": "business",
+        "tls_checkbox": true,
+        "x": 690,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "2fc4833de8926fe5",
+        "type": "serial-port",
+        "name": "",
+        "serialport": "/dev/ttyACM0",
+        "serialbaud": "115200",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "d579130252e051d8",
+        "type": "ui_group",
+        "name": "",
+        "tab": "6c56c00a7200d742",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6c56c00a7200d742",
+        "type": "ui_tab",
+        "name": "Smart Holder",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]

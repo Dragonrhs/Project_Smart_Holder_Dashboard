@@ -1,6 +1,6 @@
 # Project_Smart_Holder_Dashboard
 
-Repositório para continuação do projeto [Project_Smart_Holder](https://github.com/Dragonrhs/Project_Smart_Holder) referente ao Trabalho T2 e T3 da materia de Microcontroladores e Sistemas Embarcados EEN251, sobre supervisão dos professores Sergio Ribeiro Augusto e Rodrigo França.
+Repositório para continuação do projeto [Project_Smart_Holder](https://github.com/Dragonrhs/Project_Smart_Holder) referente ao Trabalho T2 e T3 da materia de Microcontroladores e Sistemas Embarcados EEN251,com a supervisão dos professores Sergio Ribeiro Augusto e Rodrigo França.
 
 # Sumário
 
@@ -11,17 +11,17 @@ Repositório para continuação do projeto [Project_Smart_Holder](https://github
 - [Funcionamento](#Funcionamento)
 - [Diagrama de blocos do sistema](#Diagrama-de-blocos-do-sistema)
 - [Esquema Elétrico](#Esquema-Elétrico)
-- [Red Nodes](#Red-Nodes)
+- [Node-RED nodes](#Node-RED-nodes)
 - [Dashboard](#Dashboard)
 - [Autores](#Autores)
 
 # Descrição 
 
-O projeto consiste em aprimorar o smart holder, fazendo com que os dados medidos pelos sensores sejam captados e em sequência exibidos em um dashboard, para isso foram feitas alterações para viabilizar o aprimoramento.
+O projeto consiste em aprimorar o Smart Holder, fazendo com que os dados medidos pelos sensores sejam captados e em sequência exibidos em um dashboard, para isso foram feitas alterações para viabilizar o aprimoramento.
 
 # Requisitos 
 
-O projeto deve apartir do peso da garrafa colocada saber se ela esta vazia ou cheia indicando atraves de leds essa informaçao, deve apresentar no display a temperatura que a bebida está, deve ter uma fonte de alimentação seja por meio da fonte ou opcionalmente por meio da bateria e todos esses dados devem ser enviados para o dashboard para uma visualizaçao melhorada.
+O projeto deve, a partir do peso da garrafa colocada, indicar se ela esta vazia ou cheia através de leds, deve apresentar no display as informações de peso e temperatura, deve ter uma fonte de alimentação seja por meio da fonte ou opcionalmente por meio da bateria e os dados devem ser apresentados para um dashboard.
 
 
 | ID    |                        Requisito                    |    Tipo        |
@@ -43,25 +43,25 @@ O projeto deve apartir do peso da garrafa colocada saber se ela esta vazia ou ch
 - 1 Raspberry Pi Pico
 - 1 Módulo HX711
 - 1 Célula de Carga Fina 50 Kg
-- 3 Leds(vermelho, amarelo, verde)
+- 3 Leds (vermelho, amarelo, verde)
 - 1 Raspberry Pi 3 model b+
 - 3 resitores 220 Ω
 - Jumpers
 
 # Custo Estimado 
 
-| Item                      |   Preço    | 
-| :-------------------------|-----------:|
-| DTH11                     | R$8,90     |
-| OLED i2c                  | R$10,97    |
-| Raspberry Pi Pico         | R$33,90    |
-| HX711                     | R$5,90     |
-| Célula de carga           | R$7,90     |
-| Leds x 3                  | R$0,72     |
-| Porta garrafa             | R$18,49    |
-| 1 Raspberry Pi 3 model b+ | R$385,60   |
-| resistor 220 Ω x3         | R$0,30     |
-| **Total**                 |**R$472,68**|
+| Item                      |   Preço     | 
+| :-------------------------|:-----------:|
+| DTH11                     | R$ 8,90     |
+| OLED i2c                  | R$ 10,97    |
+| Raspberry Pi Pico         | R$ 33,90    |
+| HX711                     | R$ 5,90     |
+| Célula de carga           | R$ 7,90     |
+| Leds x 3                  | R$ 0,72     |
+| Porta garrafa             | R$ 18,49    |
+| 1 Raspberry Pi 3 model b+ | R$ 385,60   |
+| Resistor 220 Ω x3         | R$ 0,30     |
+| **Total**                 |**R$ 472,68**|
 
 # Funcionamento
 
@@ -78,7 +78,7 @@ O projeto deve apartir do peso da garrafa colocada saber se ela esta vazia ou ch
 
 ![screenshot](imagens/Esquema_Eletrico.jpeg)
 
-## Red Nodes
+## Node-RED nodes
 
 ![screenshot](imagens/Red.jpeg)
 

@@ -11,7 +11,7 @@ Repositório para continuação do projeto [Project_Smart_Holder](https://github
 - [Funcionamento](#Funcionamento)
 - [Diagrama de blocos do sistema](#Diagrama-de-blocos-do-sistema)
 - [Esquema Elétrico](#Esquema-Elétrico)
-- [Node-RED nodes](#Node-RED-nodes)
+- [Node-RED](#Node-RED)
 - [Dashboard](#Dashboard)
 - [Autores](#Autores)
 
@@ -78,7 +78,7 @@ O projeto deve, a partir do peso da garrafa colocada, indicar se ela esta vazia 
 
 ![screenshot](imagens/Esquema_Eletrico.jpeg)
 
-## Node-RED nodes
+## Node-RED
 
 ![screenshot](imagens/Red.jpeg)
 
